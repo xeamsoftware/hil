@@ -1,0 +1,63 @@
+<?php
+
+return [
+
+	'en' => [
+        'leaveType' => 'Leave Type',
+        'leaveDayHours' => 'Days/Hrs',
+        'leaveAccumulationForm' => 'Leave Accumulation Form',      
+        'employeeCode' => 'Employee Code',
+        'employeeName' => 'Employee Name',
+        'casualLeave' => 'Casual Leave',
+        'halfPaySickLeave' => 'Half Pay Sick Leave (HPSL)',
+        'nonEncashable' => 'EL - Non Encashable',
+        'encashable' => 'EL - Encashable',
+        'shortLeave' => 'Short Leave',
+        'restrictedHoliday' => 'Restricted Holiday (RH)',
+        'compensatoryLeave' => 'Compensatory Leave',
+        'formSubmit' => 'Submit',
+        'cancel' => 'Cancel',
+        'leaveType' => 'Leave Type',
+        'maxYearlyLimit' => 'Max Yearly Limit',
+        'totalRemainingCount' => 'Total Remaining Count',
+        'sterlisationLeave' => 'Sterlisation Leave',
+        'bloodDonation' => 'Blood Donation',
+        'quarantineLeave' => 'Quarantine Leave',
+        'maternityLeave' => 'Maternity Leave',
+        'paternityLeave' => 'Paternity Leave',
+        'restrictedHoliday' => 'Restricted Holiday (RH)',
+        'extraOrdinaryLeave' => 'Extra Ordinary Leave (EOL)',   
+        'transferJoiningLeave' => 'Transfer / Joining Leave',
+        'specialCasualLeave' => 'Special Casual Leave',
+	],
+
+        'hi' => [
+        'leaveType' => 'अवकाश के प्रकार',
+        'leaveDayHours' => 'दिन/घंटे',
+        'leaveAccumulationForm' => 'छुट्टी का संग्रह प्रपत्र', 
+        'employeeCode' => 'कर्मचारी कोड',
+        'employeeName' => 'कर्मचारी का नाम',
+        'casualLeave' => 'आकस्मिक अवकाश',
+        'halfPaySickLeave' => 'अर्ध वेतन अस्वनस्थता अवकाश (एच.पी.एस.एल.)',
+        'nonEncashable' => 'अ.अ.– गैर नकद योग्य',
+        'encashable' => 'अ.अ.–नकद योग्य',
+        'shortLeave' => 'अल्प अवकाश',
+        'restrictedHoliday' => 'प्रतिबंधित अवकाश (आर.एच.)',
+        'compensatoryLeave' => 'प्रतिकर अवकाश',
+        'formSubmit' => 'जमा करें',
+        'cancel' => 'रद्द करना',
+        'leaveType' => 'छुट्टी के प्रकार',
+        'maxYearlyLimit' => 'अधिकतम वार्षिक सीमा',
+        'totalRemainingCount' => 'कुल शेष गणना',
+        'sterlisationLeave' => 'नसबंदी अवकाश',
+        'bloodDonation' => 'रक्तदान',
+        'quarantineLeave' => 'संगरोध अवकाश',
+        'maternityLeave' => 'मातृत्वअ अवकाश',
+        'paternityLeave' => 'पितृत्वअ अवकाश',
+        'extraOrdinaryLeave' => 'असाधारण अवकाश',   
+        'transferJoiningLeave' => 'स्थाानांतरण/कार्यग्रहण अवकाश',
+        'specialCasualLeave' => 'विशेष आकस्मिक अवकाश'
+        ],
+
+
+];
