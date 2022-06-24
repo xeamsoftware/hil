@@ -118,8 +118,6 @@ class LeaveController extends Controller
 
         $leaveType = new LeaveType();
 
-
-
         $yearlyChecksError = $leaveType->leaveTypeYearlyChecks($user, $request->leaveTypeId, $request->numberOfDays, NULL, $request->fromDate, $checkUniqueDates['toDate']);
         if($yearlyChecksError){
 //            return redirect()->back()->with('leaveError', "You cannot apply for leave , You Don't have  Exceeding leave .");

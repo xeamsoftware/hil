@@ -155,7 +155,6 @@ class LeaveType extends Model
             ->select(DB::raw("SUM(al.paid_leaves_count) as paidLeavesCount"))
             ->first();
 
-//return $fromDate.'-'.$toDate;
         $fromDate = date("Y-m-d",strtotime($fromDate));
         $toDate = date("Y-m-d",strtotime($toDate));
         $alreadyAppliedLeave = AppliedLeave::whereDate('from_date', $fromDate)->whereDate('to_date', $toDate)->where(['user_id' => $user->id, 'status' => '1'])->first();
@@ -294,8 +293,8 @@ class LeaveType extends Model
                                     'leave_type_id' => 11,
                                     'encashment_status' => 0,
                                     'final_status' => '1',
-                                    'from_date' => $currentYear
                                 ])
+                                ->whereYear('from_date', $currentYear)
                                 ->count();
                             if($leaveSlotCount>=15){
                                 $leaveError = "Slot of 15 leaves cannot be exeeded";
