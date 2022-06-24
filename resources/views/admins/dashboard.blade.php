@@ -25,6 +25,7 @@
                     <tr>
                         <th class="ltl-heading1">Leave Type</th>
                           <th class="ltl-heading2">Total Accumulated Leaves</th>
+
                           <th class="ltl-heading2">Max. Yearly Credited Leaves</th>
 {{--                          <th class="ltl-heading2">Yearly Available Leaves</th>--}}
                           <th class="ltl-heading3">Days/ Hrs</th>
